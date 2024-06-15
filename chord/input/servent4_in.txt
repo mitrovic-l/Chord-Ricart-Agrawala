@@ -1,0 +1,10 @@
+join_after 40000
+pause 60000
+add_file file4.txt private
+pause 5000
+view_file file4.txt
+remove_file file4.txt
+pause 15000
+view_file file4.txt
+pause 85000
+stop

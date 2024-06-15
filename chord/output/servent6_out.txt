@@ -1,0 +1,245 @@
+16:16:14 - Starting servent [40|localhost|1800]
+16:16:14 - Pausing for 50000 ms
+16:17:04 - Pausing for 90000 ms
+16:17:04 - 1600 will add me.
+16:17:05 - Sending message [40|1800|0||NEW_NODE|1600|0]
+16:17:09 - Got message [48|1200|68||WELCOME|1800|40]
+16:17:09 - Dobio sam welcome message, pozivam init za chordstate
+16:17:09 - Initialization complete for new node: [40|localhost|1800]
+16:17:09 - Sending message [40|1800|1||UPDATE|1200|48]
+16:17:09 - Sending message [40|1800|2||GIVE_BACKUP|1200|48]
+16:17:11 - Got message [40|1800|51|1200,1600,1300|UPDATE|1800|40]
+16:17:12 - Sending message [40|1800|3||REORGANIZATION|1200|48]
+16:17:12 - My nodes to check: [4|localhost|1300], [48|localhost|1200]
+16:17:12 - Got message [4|1300|55||TICK|1800|40]
+16:17:12 - Sending message [40|1800|4||TICK|1300|4]
+16:17:12 - Sending message [40|1800|5||TICK|1200|48]
+16:17:12 - Got message [20|1700|53||NEW_NODE|1800|40]
+16:17:12 - Sending request for critical section with number: 1 and timestamp: 1718374632896
+16:17:13 - Got message [24|1400|56||NEW_NODE|1800|40]
+16:17:13 - Sending request for critical section with number: 2 and timestamp: 1718374633009
+16:17:13 - Sending message [40|1800|6||TACK|1300|4]
+16:17:13 - Sending message RequestMessage{requestNumber=1, timestamp=1718374632896, requesterPort=1800, senderPort=1800, receiverPort=1300}
+16:17:13 - Got message [48|1200|80||TACK|1800|40]
+16:17:13 - Heart 1200 responded
+16:17:13 - Sending message RequestMessage{requestNumber=2, timestamp=1718374633009, requesterPort=1800, senderPort=1800, receiverPort=1600}
+16:17:13 - Got message [48|1200|57|33|FILE_ASK|1800|40]
+16:17:13 - Sending message RequestMessage{requestNumber=1, timestamp=1718374632896, requesterPort=1800, senderPort=1800, receiverPort=1200}
+16:17:13 - Sending message RequestMessage{requestNumber=2, timestamp=1718374633009, requesterPort=1800, senderPort=1800, receiverPort=1200}
+16:17:13 - Got message [4|1300|58||TACK|1800|40]
+16:17:13 - Heart 1300 responded
+16:17:13 - Sending message RequestMessage{requestNumber=1, timestamp=1718374632896, requesterPort=1800, senderPort=1800, receiverPort=1600}
+16:17:13 - Got message ReplyMessage{senderPort=1600, receiverPort=1800}
+16:17:13 - Received reply from: 1600
+16:17:13 - Sending message RequestMessage{requestNumber=2, timestamp=1718374633009, requesterPort=1800, senderPort=1800, receiverPort=1300}
+16:17:14 - Got message ReplyMessage{senderPort=1200, receiverPort=1800}
+16:17:14 - Received reply from: 1200
+16:17:14 - Sending message [40|1800|13|33|FILE_DENIED|1200|48]
+16:17:14 - Got message ReplyMessage{senderPort=1200, receiverPort=1800}
+16:17:14 - Received reply from: 1200
+16:17:14 - Got message ReplyMessage{senderPort=1300, receiverPort=1800}
+16:17:14 - Received reply from: 1300
+16:17:14 - Entering critical section
+16:17:14 - Adding node with port: [20|localhost|1700]
+16:17:14 - Entering critical section
+16:17:14 - Adding node with port: [24|localhost|1400]
+16:17:14 - Got message ReplyMessage{senderPort=1600, receiverPort=1800}
+16:17:14 - Received reply from: 1600
+16:17:14 - Got message ReplyMessage{senderPort=1300, receiverPort=1800}
+16:17:14 - Received reply from: 1300
+16:17:14 - Got message [4|1300|61||GIVE_BACKUP|1800|40]
+16:17:14 - Sending message [40|1800|16||WELCOME|1400|24]
+16:17:14 - Sending message [40|1800|14||WELCOME|1700|20]
+16:17:15 - Sending message [40|1800|15||GIVE_BACKUP|1200|48]
+16:17:15 - Got message [24|1400|1||UPDATE|1800|40]
+16:17:15 - Got message [20|1700|1||UPDATE|1800|40]
+16:17:15 - Sending message [24|1400|17|1800|UPDATE|1200|48]
+16:17:16 - Sending message [20|1700|18|1800|UPDATE|1200|48]
+16:17:18 - Got message [24|1400|2||REORGANIZATION|1800|40]
+16:17:18 - |-|-|-|-|-|===> Reorganization completed: 1400
+16:17:18 - My nodes to check: [24|localhost|1400], [48|localhost|1200]
+16:17:18 - Got message [20|1700|2||REORGANIZATION|1800|40]
+16:17:18 - |-|-|-|-|-|===> Reorganization completed: 1700
+16:17:18 - Exiting critical section
+16:17:18 - Exiting critical section
+16:17:18 - Sending message [40|1800|19||TICK|1400|24]
+16:17:18 - Sending message [40|1800|20||TICK|1200|48]
+16:17:18 - Got message [24|1400|5||TACK|1800|40]
+16:17:18 - Heart 1400 responded
+16:17:19 - Got message [20|1700|4||TICK|1800|40]
+16:17:19 - Got message [24|1400|4||TICK|1800|40]
+16:17:19 - Sending message [40|1800|22||TACK|1400|24]
+16:17:19 - Got message [48|1200|89||TACK|1800|40]
+16:17:19 - Heart 1200 responded
+16:17:19 - Got message [24|1400|6||GIVE_BACKUP|1800|40]
+16:17:19 - Got message [4|1300|6|35|FILE_ASK|1800|40]
+16:17:19 - Got message [20|1700|7||GIVE_BACKUP|1800|40]
+16:17:19 - Sending message [40|1800|23||GIVE_BACKUP|1200|48]
+16:17:19 - Sending message [40|1800|21||TACK|1700|20]
+16:17:20 - Sending message [40|1800|24|35|FILE_DENIED|1300|4]
+16:17:23 - Got message [48|1200|93||TICK|1800|40]
+16:17:24 - My nodes to check: [24|localhost|1400], [48|localhost|1200]
+16:17:24 - Sending message [40|1800|26||GIVE_BACKUP|1200|48]
+16:17:24 - Got message [24|1400|7||GIVE_BACKUP|1800|40]
+16:17:24 - Sending message [40|1800|25||TACK|1200|48]
+16:17:24 - Got message [24|1400|9||TICK|1800|40]
+16:17:24 - Sending message [40|1800|28||TICK|1200|48]
+16:17:24 - Got message [20|1700|10||TICK|1800|40]
+16:17:25 - Got message [20|1700|8||GIVE_BACKUP|1800|40]
+16:17:25 - Got message [48|1200|97||TACK|1800|40]
+16:17:25 - Heart 1200 responded
+16:17:25 - Sending message [40|1800|27||TICK|1400|24]
+16:17:25 - Sending message [40|1800|29||TACK|1400|24]
+16:17:25 - Got message [24|1400|10||TACK|1800|40]
+16:17:25 - Heart 1400 responded
+16:17:25 - Sending message [40|1800|30||TACK|1700|20]
+16:17:29 - Got message [20|1700|12||GIVE_BACKUP|1800|40]
+16:17:29 - Sending message [40|1800|31||GIVE_BACKUP|1200|48]
+16:17:30 - Got message [48|1200|101||TICK|1800|40]
+16:17:30 - Got message [24|1400|11||GIVE_BACKUP|1800|40]
+16:17:30 - My nodes to check: [24|localhost|1400], [48|localhost|1200]
+16:17:30 - Sending message [40|1800|32||TACK|1200|48]
+16:17:30 - Sending message [40|1800|34||TICK|1200|48]
+16:17:30 - Sending message [40|1800|33||TICK|1400|24]
+16:17:31 - Got message [20|1700|14||TICK|1800|40]
+16:17:31 - Got message [24|1400|13||TICK|1800|40]
+16:17:31 - Sending message [40|1800|35||TACK|1700|20]
+16:17:31 - Got message [24|1400|14||TACK|1800|40]
+16:17:31 - Heart 1400 responded
+16:17:31 - Sending message [40|1800|36||TACK|1400|24]
+16:17:31 - Got message [48|1200|104||TACK|1800|40]
+16:17:31 - Heart 1200 responded
+16:17:34 - Got message [20|1700|16||GIVE_BACKUP|1800|40]
+16:17:35 - Sending message [40|1800|37||GIVE_BACKUP|1200|48]
+16:17:35 - Got message [24|1400|15||GIVE_BACKUP|1800|40]
+16:17:35 - Got message [48|1200|108||TICK|1800|40]
+16:17:35 - Sending message [40|1800|38||TACK|1200|48]
+16:17:36 - My nodes to check: [24|localhost|1400], [48|localhost|1200]
+16:17:36 - Sending message [40|1800|39||TICK|1400|24]
+16:17:36 - Sending message [40|1800|40||TICK|1200|48]
+16:17:36 - Got message [24|1400|17||TICK|1800|40]
+16:17:37 - Got message [20|1700|18||TICK|1800|40]
+16:17:37 - Got message [24|1400|18||TACK|1800|40]
+16:17:37 - Heart 1400 responded
+16:17:37 - Sending message [40|1800|41||TACK|1400|24]
+16:17:37 - Got message [48|1200|111||TACK|1800|40]
+16:17:37 - Heart 1200 responded
+16:17:37 - Sending message [40|1800|42||TACK|1700|20]
+16:17:39 - Sending message [40|1800|43||GIVE_BACKUP|1200|48]
+16:17:40 - Got message [24|1400|19||GIVE_BACKUP|1800|40]
+16:17:40 - Got message [20|1700|20||GIVE_BACKUP|1800|40]
+16:17:41 - Got message [48|1200|115||TICK|1800|40]
+16:17:42 - My nodes to check: [24|localhost|1400], [48|localhost|1200]
+16:17:42 - Sending message [40|1800|44||TACK|1200|48]
+16:17:42 - Got message [20|1700|22||TICK|1800|40]
+16:17:42 - Sending message [40|1800|46||TICK|1200|48]
+16:17:43 - Got message [24|1400|21||TICK|1800|40]
+16:17:43 - Sending message [40|1800|47||TACK|1700|20]
+16:17:43 - Sending message [40|1800|45||TICK|1400|24]
+16:17:43 - Sending message [40|1800|48||TACK|1400|24]
+16:17:43 - Got message [48|1200|118||TACK|1800|40]
+16:17:43 - Heart 1200 responded
+16:17:44 - Got message [24|1400|22||TACK|1800|40]
+16:17:44 - Heart 1400 responded
+16:17:44 - Got message [20|1700|24||GIVE_BACKUP|1800|40]
+16:17:44 - Sending message [40|1800|49||GIVE_BACKUP|1200|48]
+16:17:45 - Got message [24|1400|23||GIVE_BACKUP|1800|40]
+16:17:48 - Got message [48|1200|122||TICK|1800|40]
+16:17:48 - My nodes to check: [24|localhost|1400], [48|localhost|1200]
+16:17:48 - Sending message [40|1800|50||TACK|1200|48]
+16:17:48 - Sending message [40|1800|51||TICK|1400|24]
+16:17:48 - Sending message [40|1800|52||TICK|1200|48]
+16:17:49 - Got message [20|1700|26||TICK|1800|40]
+16:17:49 - Got message [24|1400|26||TACK|1800|40]
+16:17:49 - Heart 1400 responded
+16:17:49 - Got message [24|1400|25||TICK|1800|40]
+16:17:49 - Sending message [40|1800|53||TACK|1700|20]
+16:17:49 - Sending message [40|1800|54||TACK|1400|24]
+16:17:49 - Got message [20|1700|28||GIVE_BACKUP|1800|40]
+16:17:49 - Got message [48|1200|125||TACK|1800|40]
+16:17:49 - Heart 1200 responded
+16:17:49 - Sending message [40|1800|55||GIVE_BACKUP|1200|48]
+16:17:49 - Got message [24|1400|27||GIVE_BACKUP|1800|40]
+16:17:53 - Got message [48|1200|129||TICK|1800|40]
+16:17:54 - My nodes to check: [24|localhost|1400], [48|localhost|1200]
+16:17:54 - Sending message [40|1800|57||GIVE_BACKUP|1200|48]
+16:17:54 - Sending message [40|1800|58||TICK|1400|24]
+16:17:54 - Sending message [40|1800|56||TACK|1200|48]
+16:17:54 - Got message [20|1700|29||GIVE_BACKUP|1800|40]
+16:17:54 - Got message [24|1400|28||GIVE_BACKUP|1800|40]
+16:17:55 - Sending message [40|1800|59||TICK|1200|48]
+16:17:55 - Got message [24|1400|30||TICK|1800|40]
+16:17:55 - Got message [24|1400|31||TACK|1800|40]
+16:17:55 - Heart 1400 responded
+16:17:55 - Got message [20|1700|33|36|FILE_ADD|1800|40]
+16:17:55 - Got message [20|1700|31||TICK|1800|40]
+16:17:55 - Sending message [40|1800|60||TACK|1400|24]
+16:17:55 - Sending message [40|1800|61||TACK|1700|20]
+16:17:55 - Got message [48|1200|133||TACK|1800|40]
+16:17:55 - Heart 1200 responded
+16:17:59 - Got message [48|1200|137||TICK|1800|40]
+16:17:59 - Got message [24|1400|32||GIVE_BACKUP|1800|40]
+16:17:59 - Got message [20|1700|34||GIVE_BACKUP|1800|40]
+16:17:59 - Sending message [40|1800|62||GIVE_BACKUP|1200|48]
+16:18:00 - Sending message [40|1800|63||TACK|1200|48]
+16:18:00 - My nodes to check: [24|localhost|1400], [48|localhost|1200]
+16:18:00 - Got message [20|1700|36|content/file4.txt|FILE_REMOVE|1800|40]
+16:18:00 - Got message [0|1600|35|36|FILE_ASK|1800|40]
+16:18:00 - File not found for key: 36
+16:18:00 - Sending message [40|1800|64||TICK|1400|24]
+16:18:01 - Got message [24|1400|34||TICK|1800|40]
+16:18:01 - Got message [20|1700|38||TICK|1800|40]
+16:18:01 - Sending message [40|1800|65||TICK|1200|48]
+16:18:01 - Sending message [40|1800|66||TACK|1400|24]
+16:18:01 - Sending message [40|1800|67||TACK|1700|20]
+16:18:01 - Got message [24|1400|35||TACK|1800|40]
+16:18:01 - Heart 1400 responded
+16:18:02 - Got message [48|1200|140||TACK|1800|40]
+16:18:02 - Heart 1200 responded
+16:18:04 - Got message [20|1700|39||GIVE_BACKUP|1800|40]
+16:18:04 - Sending message [40|1800|68||GIVE_BACKUP|1200|48]
+16:18:04 - Got message [24|1400|36||GIVE_BACKUP|1800|40]
+16:18:05 - Got message [48|1200|144||TICK|1800|40]
+16:18:06 - My nodes to check: [24|localhost|1400], [48|localhost|1200]
+16:18:06 - Sending message [40|1800|70||TICK|1400|24]
+16:18:06 - Sending message [40|1800|69||TACK|1200|48]
+16:18:07 - Sending message [40|1800|71||TICK|1200|48]
+16:18:07 - Got message [24|1400|38||TACK|1800|40]
+16:18:07 - Heart 1400 responded
+16:18:07 - Got message [48|1200|146||TACK|1800|40]
+16:18:07 - Heart 1200 responded
+16:18:09 - Got message [20|1700|41||GIVE_BACKUP|1800|40]
+16:18:09 - Sending message [40|1800|72||GIVE_BACKUP|1200|48]
+16:18:10 - Got message [24|1400|39||GIVE_BACKUP|1800|40]
+16:18:12 - Got message [48|1200|150||TICK|1800|40]
+16:18:12 - My nodes to check: [24|localhost|1400], [48|localhost|1200]
+16:18:12 - Sending message [40|1800|73||TACK|1200|48]
+16:18:12 - Sending message [40|1800|74||TICK|1400|24]
+16:18:13 - Sending message [40|1800|75||TICK|1200|48]
+16:18:13 - Got message [24|1400|40||TACK|1800|40]
+16:18:13 - Heart 1400 responded
+16:18:13 - Got message [48|1200|152||TACK|1800|40]
+16:18:13 - Heart 1200 responded
+16:18:14 - Sending message [40|1800|76||GIVE_BACKUP|1200|48]
+16:18:14 - Got message [24|1400|41||GIVE_BACKUP|1800|40]
+16:18:15 - Got message [0|1600|90|1300|HARD_FAIL|1800|40]
+16:18:15 - Got message [20|1700|42||GIVE_BACKUP|1800|40]
+16:18:15 - Got message [0|1600|43|36|FILE_ASK|1800|40]
+16:18:15 - File not found for key: 36
+16:18:15 - Sending message [40|1800|77|1300|HARD_FAIL_CONFIRM|1600|0]
+16:18:15 - Got message RequestMessage{requestNumber=1, timestamp=1718374695370, requesterPort=1400, senderPort=1400, receiverPort=1800}
+16:18:15 - Sent reply to: 1400
+16:18:16 - Got message RequestMessage{requestNumber=1, timestamp=1718374695410, requesterPort=1700, senderPort=1700, receiverPort=1800}
+16:18:16 - Sent reply to: 1700
+16:18:16 - Sending message ReplyMessage{senderPort=1800, receiverPort=1400}
+16:18:16 - Sending message ReplyMessage{senderPort=1800, receiverPort=1700}
+16:18:17 - Got message [48|1200|160||TICK|1800|40]
+16:18:18 - My nodes to check: [24|localhost|1400], [48|localhost|1200]
+16:18:18 - Sending message [40|1800|80||TACK|1200|48]
+16:18:18 - Sending message [40|1800|82||TICK|1200|48]
+16:18:19 - Sending message [40|1800|81||TICK|1400|24]
+16:18:19 - Sending message [40|1800|83||GIVE_BACKUP|1200|48]
+16:18:19 - Got message [24|1400|48||GIVE_BACKUP|1800|40]
+16:18:19 - Got message [48|1200|162||TACK|1800|40]
+16:18:19 - Heart 1200 responded
+16:18:19 - Got message [20|1700|49||GIVE_BACKUP|1800|40]

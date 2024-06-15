@@ -1,0 +1,198 @@
+16:16:14 - Starting servent [28|localhost|1100]
+16:16:14 - Pausing for 0 ms
+16:16:14 - Pausing for 10000 ms
+16:16:14 - I am the first node entering this system...
+16:16:24 - Pausing for 10000 ms
+16:16:24 - Got message [48|1200|0||NEW_NODE|1100|28]
+16:16:24 - Sending request for critical section with number: 1 and timestamp: 1718374584957
+16:16:24 - Entering critical section
+16:16:24 - Adding node with port: [48|localhost|1200]
+16:16:25 - Sending message [28|1100|0||WELCOME|1200|48]
+16:16:26 - Got message [48|1200|1||UPDATE|1100|28]
+16:16:26 - Sending message [48|1200|1|1100|UPDATE|1200|48]
+16:16:27 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:16:27 - Got message [48|1200|3||REORGANIZATION|1100|28]
+16:16:27 - |-|-|-|-|-|===> Reorganization completed: 1200
+16:16:27 - Exiting critical section
+16:16:27 - Exiting critical section
+16:16:27 - Sending message [28|1100|2||TICK|1200|48]
+16:16:27 - Got message [48|1200|4||TICK|1100|28]
+16:16:27 - Got message [48|1200|5||TICK|1100|28]
+16:16:28 - Sending message [28|1100|3||TICK|1200|48]
+16:16:28 - Got message [48|1200|6||TACK|1100|28]
+16:16:28 - Heart 1200 responded
+16:16:28 - Sending message [28|1100|4||TACK|1200|48]
+16:16:28 - Sending message [28|1100|5||TACK|1200|48]
+16:16:29 - Got message [48|1200|7||TACK|1100|28]
+16:16:29 - Heart 1200 responded
+16:16:29 - Sending message [28|1100|6||GIVE_BACKUP|1200|48]
+16:16:33 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:16:33 - Sending message [28|1100|8||TICK|1200|48]
+16:16:34 - Sending message [28|1100|7||TICK|1200|48]
+16:16:34 - Got message [48|1200|12||TACK|1100|28]
+16:16:34 - Heart 1200 responded
+16:16:34 - Pausing for 11000 ms
+16:16:34 - Sending message [28|1100|9||GIVE_BACKUP|1200|48]
+16:16:34 - Got message [48|1200|13||TACK|1100|28]
+16:16:34 - Heart 1200 responded
+16:16:39 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:16:39 - Sending message [28|1100|12||TICK|1200|48]
+16:16:39 - Sending message [28|1100|10||GIVE_BACKUP|1200|48]
+16:16:39 - Sending message [28|1100|11||TICK|1200|48]
+16:16:40 - Got message [48|1200|18||TACK|1100|28]
+16:16:40 - Heart 1200 responded
+16:16:40 - Got message [48|1200|19||TACK|1100|28]
+16:16:40 - Heart 1200 responded
+16:16:44 - Got message [48|1200|22||TICK|1100|28]
+16:16:44 - Sending message [28|1100|13||TACK|1200|48]
+16:16:45 - Sending message [28|1100|14||GIVE_BACKUP|1200|48]
+16:16:45 - -------<*>---> Adding file with key: 33, file name: file1.txt
+16:16:45 - ----<***>---> Added: file1.txt.
+16:16:45 - Pausing for 20000 ms
+16:16:45 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:16:45 - Sending message [28|1100|15|33|FILE_ADD|1200|48]
+16:16:45 - Sending message [28|1100|17||TICK|1200|48]
+16:16:46 - Sending message [28|1100|16||TICK|1200|48]
+16:16:46 - Got message [48|1200|25||TACK|1100|28]
+16:16:46 - Heart 1200 responded
+16:16:46 - Got message [48|1200|26||TACK|1100|28]
+16:16:46 - Heart 1200 responded
+16:16:49 - Got message [48|1200|30||TICK|1100|28]
+16:16:50 - Sending message [28|1100|18||GIVE_BACKUP|1200|48]
+16:16:50 - Sending message [28|1100|19||TACK|1200|48]
+16:16:51 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:16:51 - Sending message [28|1100|20||TICK|1200|48]
+16:16:51 - Sending message [28|1100|21||TICK|1200|48]
+16:16:52 - Got message [48|1200|32||TACK|1100|28]
+16:16:52 - Heart 1200 responded
+16:16:52 - Got message [48|1200|33||TACK|1100|28]
+16:16:52 - Heart 1200 responded
+16:16:54 - Sending message [28|1100|22||GIVE_BACKUP|1200|48]
+16:16:56 - Got message [48|1200|38||TICK|1100|28]
+16:16:56 - Sending message [28|1100|23||TACK|1200|48]
+16:16:57 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:16:57 - Sending message [28|1100|24||TICK|1200|48]
+16:16:58 - Sending message [28|1100|25||TICK|1200|48]
+16:16:58 - Got message [48|1200|43||TACK|1100|28]
+16:16:58 - Heart 1200 responded
+16:16:58 - Got message [48|1200|45||TACK|1100|28]
+16:16:58 - Heart 1200 responded
+16:16:59 - Sending message [28|1100|26||GIVE_BACKUP|1200|48]
+16:17:01 - Got message [48|1200|51||TICK|1100|28]
+16:17:02 - Sending message [28|1100|27||TACK|1200|48]
+16:17:03 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:17:03 - Sending message [28|1100|29||TICK|1200|48]
+16:17:04 - Sending message [28|1100|28||TICK|1200|48]
+16:17:04 - Got message [48|1200|55||TACK|1100|28]
+16:17:04 - Heart 1200 responded
+16:17:04 - Sending message [28|1100|30||GIVE_BACKUP|1200|48]
+16:17:04 - Got message [48|1200|54||TACK|1100|28]
+16:17:04 - Heart 1200 responded
+16:17:05 - -------<*>---> Adding file with key: 35, file name: file3.txt
+16:17:05 - ----<***>---> Added: file3.txt.
+16:17:05 - Pausing for 120000 ms
+16:17:05 - Sending message [28|1100|31|35|FILE_ADD|1200|48]
+16:17:06 - Got message RequestMessage{requestNumber=2, timestamp=1718374626637, requesterPort=1200, senderPort=1200, receiverPort=1100}
+16:17:06 - Sent reply to: 1200
+16:17:07 - Sending message ReplyMessage{senderPort=1100, receiverPort=1200}
+16:17:07 - Got message [48|1200|65||TICK|1100|28]
+16:17:08 - Sending message [28|1100|33||TACK|1200|48]
+16:17:09 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:17:09 - Sending message [28|1100|34||GIVE_BACKUP|1200|48]
+16:17:09 - Sending message [28|1100|36||TICK|1200|48]
+16:17:10 - Sending message [28|1100|35||TICK|1200|48]
+16:17:10 - Got message [48|1200|74||TACK|1100|28]
+16:17:10 - Heart 1200 responded
+16:17:10 - Got message [48|1200|75||TACK|1100|28]
+16:17:10 - Heart 1200 responded
+16:17:14 - Sending message [28|1100|37||GIVE_BACKUP|1200|48]
+16:17:15 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:17:15 - Sending message [28|1100|39||TICK|1200|48]
+16:17:15 - Sending message [28|1100|38||TICK|1200|48]
+16:17:16 - Got message [48|1200|86||TACK|1100|28]
+16:17:16 - Heart 1200 responded
+16:17:16 - Got message [48|1200|85||TACK|1100|28]
+16:17:16 - Heart 1200 responded
+16:17:19 - Sending message [28|1100|40||GIVE_BACKUP|1200|48]
+16:17:21 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:17:21 - Sending message [28|1100|41||TICK|1200|48]
+16:17:21 - Sending message [28|1100|42||TICK|1200|48]
+16:17:22 - Got message [48|1200|91||TACK|1100|28]
+16:17:22 - Heart 1200 responded
+16:17:22 - Got message [48|1200|92||TACK|1100|28]
+16:17:22 - Heart 1200 responded
+16:17:25 - Sending message [28|1100|43||GIVE_BACKUP|1200|48]
+16:17:27 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:17:27 - Sending message [28|1100|45||TICK|1200|48]
+16:17:28 - Sending message [28|1100|44||TICK|1200|48]
+16:17:28 - Got message [48|1200|98||TACK|1100|28]
+16:17:28 - Heart 1200 responded
+16:17:28 - Got message [48|1200|99||TACK|1100|28]
+16:17:28 - Heart 1200 responded
+16:17:29 - Sending message [28|1100|46||GIVE_BACKUP|1200|48]
+16:17:33 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:17:33 - Sending message [28|1100|47||TICK|1200|48]
+16:17:34 - Sending message [28|1100|48||TICK|1200|48]
+16:17:34 - Got message [48|1200|105||TACK|1100|28]
+16:17:34 - Heart 1200 responded
+16:17:34 - Sending message [28|1100|49||GIVE_BACKUP|1200|48]
+16:17:34 - Got message [48|1200|106||TACK|1100|28]
+16:17:34 - Heart 1200 responded
+16:17:39 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:17:39 - Sending message [28|1100|52||TICK|1200|48]
+16:17:39 - Sending message [28|1100|50||GIVE_BACKUP|1200|48]
+16:17:40 - Got message [48|1200|113||TACK|1100|28]
+16:17:40 - Heart 1200 responded
+16:17:40 - Sending message [28|1100|51||TICK|1200|48]
+16:17:40 - Got message [48|1200|114||TACK|1100|28]
+16:17:40 - Heart 1200 responded
+16:17:44 - Sending message [28|1100|53||GIVE_BACKUP|1200|48]
+16:17:45 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:17:45 - Sending message [28|1100|54||TICK|1200|48]
+16:17:46 - Sending message [28|1100|55||TICK|1200|48]
+16:17:46 - Got message [48|1200|120||TACK|1100|28]
+16:17:46 - Heart 1200 responded
+16:17:46 - Got message [48|1200|121||TACK|1100|28]
+16:17:46 - Heart 1200 responded
+16:17:50 - Sending message [28|1100|56||GIVE_BACKUP|1200|48]
+16:17:51 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:17:51 - Sending message [28|1100|58||TICK|1200|48]
+16:17:51 - Sending message [28|1100|57||TICK|1200|48]
+16:17:52 - Got message [48|1200|128||TACK|1100|28]
+16:17:52 - Heart 1200 responded
+16:17:52 - Got message [48|1200|127||TACK|1100|28]
+16:17:52 - Heart 1200 responded
+16:17:54 - Sending message [28|1100|59||GIVE_BACKUP|1200|48]
+16:17:57 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:17:57 - Sending message [28|1100|61||TICK|1200|48]
+16:17:58 - Sending message [28|1100|60||TICK|1200|48]
+16:17:58 - Got message [48|1200|134||TACK|1100|28]
+16:17:58 - Heart 1200 responded
+16:17:58 - Got message [48|1200|135||TACK|1100|28]
+16:17:58 - Heart 1200 responded
+16:18:00 - Sending message [28|1100|62||GIVE_BACKUP|1200|48]
+16:18:03 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:18:03 - Sending message [28|1100|63||TICK|1200|48]
+16:18:04 - Sending message [28|1100|64||TICK|1200|48]
+16:18:04 - Got message [48|1200|141||TACK|1100|28]
+16:18:04 - Heart 1200 responded
+16:18:04 - Sending message [28|1100|65||GIVE_BACKUP|1200|48]
+16:18:04 - Got message [48|1200|142||TACK|1100|28]
+16:18:04 - Heart 1200 responded
+16:18:09 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:18:09 - Sending message [28|1100|66||GIVE_BACKUP|1200|48]
+16:18:09 - Sending message [28|1100|67||TICK|1200|48]
+16:18:09 - Sending message [28|1100|68||TICK|1200|48]
+16:18:10 - Got message [48|1200|148||TACK|1100|28]
+16:18:10 - Heart 1200 responded
+16:18:10 - Got message [48|1200|149||TACK|1100|28]
+16:18:10 - Heart 1200 responded
+16:18:14 - Sending message [28|1100|69||GIVE_BACKUP|1200|48]
+16:18:15 - My nodes to check: [48|localhost|1200], [48|localhost|1200]
+16:18:15 - Sending message [28|1100|70||TICK|1200|48]
+16:18:16 - Sending message [28|1100|71||TICK|1200|48]
+16:18:16 - Got message [48|1200|158||TACK|1100|28]
+16:18:16 - Heart 1200 responded
+16:18:16 - Got message [48|1200|155||TACK|1100|28]
+16:18:16 - Heart 1200 responded
+16:18:19 - Sending message [28|1100|72||GIVE_BACKUP|1200|48]

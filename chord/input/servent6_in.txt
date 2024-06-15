@@ -1,0 +1,3 @@
+join_after 50000
+pause 90000
+stop

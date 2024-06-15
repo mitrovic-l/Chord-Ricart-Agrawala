@@ -1,0 +1,9 @@
+join_after 0
+pause 10000
+pause 10000
+pause 11000
+add_file file1.txt private
+pause 20000
+add_file file3.txt private
+pause 120000
+stop

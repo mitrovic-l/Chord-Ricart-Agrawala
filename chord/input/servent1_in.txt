@@ -1,0 +1,10 @@
+join_after 10000
+pause 20000
+view_file file1.txt
+pause 10000
+remove_file file1.txt
+pause 15000
+view_file file1.txt
+pause 20000
+pause 100000
+stop

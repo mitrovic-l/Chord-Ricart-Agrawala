@@ -1,0 +1,11 @@
+16:17:59 - Couldn't send message: [0|1600|78||TICK|1300|4] - Connection refused - null
+16:17:59 - Couldn't send message: [0|1600|76||GIVE_BACKUP|1300|4] - Connection refused - null
+16:18:04 - Couldn't send message: [0|1600|81||SOFT_FAIL|1300|4] - Connection refused - null
+16:18:05 - Couldn't send message: [0|1600|80||GIVE_BACKUP|1300|4] - Connection refused - null
+16:18:10 - Couldn't send message: [0|1600|83||GIVE_BACKUP|1300|4] - Connection refused - null
+16:18:14 - Couldn't send message: [0|1600|86||GIVE_BACKUP|1300|4] - Connection refused - null
+16:18:14 - Couldn't send message: [0|1600|87|1300|HARD_FAIL|1300|4] - Connection refused - null
+16:18:15 - Couldn't find node with port 1300
+16:18:15 - Couldn't find node with port 1300
+16:18:15 - Couldn't find node with port 1300
+16:18:16 - Couldn't send message: [0|1600|93||TICK|1300|4] - Connection refused - null

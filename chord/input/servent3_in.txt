@@ -1,0 +1,8 @@
+join_after 40000
+pause 100000
+pause 25000
+view_file file3.txt
+pause 65000
+remove_file file1.txt
+pause 30000
+stop
